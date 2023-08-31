@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		441B3A992AA01340005C805D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3A982AA01340005C805D /* AppDelegate.swift */; };
+		441B3A9B2AA01340005C805D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3A9A2AA01340005C805D /* SceneDelegate.swift */; };
+		441B3A9D2AA01340005C805D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3A9C2AA01340005C805D /* ViewController.swift */; };
+		441B3AA02AA01340005C805D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441B3A9E2AA01340005C805D /* Main.storyboard */; };
+		441B3AA32AA01340005C805D /* ProjetoMentoria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 441B3AA12AA01340005C805D /* ProjetoMentoria.xcdatamodeld */; };
+		441B3AA52AA01341005C805D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441B3AA42AA01341005C805D /* Assets.xcassets */; };
+		441B3AA82AA01341005C805D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441B3AA62AA01341005C805D /* LaunchScreen.storyboard */; };
+		441B3AB32AA01341005C805D /* ProjetoMentoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3AB22AA01341005C805D /* ProjetoMentoriaTests.swift */; };
+		441B3ABD2AA01341005C805D /* ProjetoMentoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3ABC2AA01341005C805D /* ProjetoMentoriaUITests.swift */; };
+		441B3ABF2AA01341005C805D /* ProjetoMentoriaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3ABE2AA01341005C805D /* ProjetoMentoriaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		441B3AAF2AA01341005C805D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 441B3A8D2AA01340005C805D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 441B3A942AA01340005C805D;
+			remoteInfo = ProjetoMentoria;
+		};
+		441B3AB92AA01341005C805D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 441B3A8D2AA01340005C805D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 441B3A942AA01340005C805D;
+			remoteInfo = ProjetoMentoria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		441B3A952AA01340005C805D /* ProjetoMentoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoMentoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		441B3A982AA01340005C805D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		441B3A9A2AA01340005C805D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		441B3A9C2AA01340005C805D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		441B3A9F2AA01340005C805D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		441B3AA22AA01340005C805D /* ProjetoMentoria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjetoMentoria.xcdatamodel; sourceTree = "<group>"; };
+		441B3AA42AA01341005C805D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		441B3AA72AA01341005C805D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		441B3AA92AA01341005C805D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441B3AAE2AA01341005C805D /* ProjetoMentoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetoMentoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		441B3AB22AA01341005C805D /* ProjetoMentoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoMentoriaTests.swift; sourceTree = "<group>"; };
+		441B3AB82AA01341005C805D /* ProjetoMentoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetoMentoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		441B3ABC2AA01341005C805D /* ProjetoMentoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoMentoriaUITests.swift; sourceTree = "<group>"; };
+		441B3ABE2AA01341005C805D /* ProjetoMentoriaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoMentoriaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		441B3A922AA01340005C805D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441B3AAB2AA01341005C805D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441B3AB52AA01341005C805D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		441B3A8C2AA01340005C805D = {
+			isa = PBXGroup;
+			children = (
+				441B3A972AA01340005C805D /* ProjetoMentoria */,
+				441B3AB12AA01341005C805D /* ProjetoMentoriaTests */,
+				441B3ABB2AA01341005C805D /* ProjetoMentoriaUITests */,
+				441B3A962AA01340005C805D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		441B3A962AA01340005C805D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				441B3A952AA01340005C805D /* ProjetoMentoria.app */,
+				441B3AAE2AA01341005C805D /* ProjetoMentoriaTests.xctest */,
+				441B3AB82AA01341005C805D /* ProjetoMentoriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		441B3A972AA01340005C805D /* ProjetoMentoria */ = {
+			isa = PBXGroup;
+			children = (
+				441B3A982AA01340005C805D /* AppDelegate.swift */,
+				441B3A9A2AA01340005C805D /* SceneDelegate.swift */,
+				441B3A9C2AA01340005C805D /* ViewController.swift */,
+				441B3A9E2AA01340005C805D /* Main.storyboard */,
+				441B3AA42AA01341005C805D /* Assets.xcassets */,
+				441B3AA62AA01341005C805D /* LaunchScreen.storyboard */,
+				441B3AA92AA01341005C805D /* Info.plist */,
+				441B3AA12AA01340005C805D /* ProjetoMentoria.xcdatamodeld */,
+			);
+			path = ProjetoMentoria;
+			sourceTree = "<group>";
+		};
+		441B3AB12AA01341005C805D /* ProjetoMentoriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				441B3AB22AA01341005C805D /* ProjetoMentoriaTests.swift */,
+			);
+			path = ProjetoMentoriaTests;
+			sourceTree = "<group>";
+		};
+		441B3ABB2AA01341005C805D /* ProjetoMentoriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				441B3ABC2AA01341005C805D /* ProjetoMentoriaUITests.swift */,
+				441B3ABE2AA01341005C805D /* ProjetoMentoriaUITestsLaunchTests.swift */,
+			);
+			path = ProjetoMentoriaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		441B3A942AA01340005C805D /* ProjetoMentoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441B3AC22AA01341005C805D /* Build configuration list for PBXNativeTarget "ProjetoMentoria" */;
+			buildPhases = (
+				441B3A912AA01340005C805D /* Sources */,
+				441B3A922AA01340005C805D /* Frameworks */,
+				441B3A932AA01340005C805D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjetoMentoria;
+			productName = ProjetoMentoria;
+			productReference = 441B3A952AA01340005C805D /* ProjetoMentoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		441B3AAD2AA01341005C805D /* ProjetoMentoriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441B3AC52AA01341005C805D /* Build configuration list for PBXNativeTarget "ProjetoMentoriaTests" */;
+			buildPhases = (
+				441B3AAA2AA01341005C805D /* Sources */,
+				441B3AAB2AA01341005C805D /* Frameworks */,
+				441B3AAC2AA01341005C805D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				441B3AB02AA01341005C805D /* PBXTargetDependency */,
+			);
+			name = ProjetoMentoriaTests;
+			productName = ProjetoMentoriaTests;
+			productReference = 441B3AAE2AA01341005C805D /* ProjetoMentoriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		441B3AB72AA01341005C805D /* ProjetoMentoriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441B3AC82AA01341005C805D /* Build configuration list for PBXNativeTarget "ProjetoMentoriaUITests" */;
+			buildPhases = (
+				441B3AB42AA01341005C805D /* Sources */,
+				441B3AB52AA01341005C805D /* Frameworks */,
+				441B3AB62AA01341005C805D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				441B3ABA2AA01341005C805D /* PBXTargetDependency */,
+			);
+			name = ProjetoMentoriaUITests;
+			productName = ProjetoMentoriaUITests;
+			productReference = 441B3AB82AA01341005C805D /* ProjetoMentoriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		441B3A8D2AA01340005C805D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					441B3A942AA01340005C805D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					441B3AAD2AA01341005C805D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 441B3A942AA01340005C805D;
+					};
+					441B3AB72AA01341005C805D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 441B3A942AA01340005C805D;
+					};
+				};
+			};
+			buildConfigurationList = 441B3A902AA01340005C805D /* Build configuration list for PBXProject "ProjetoMentoria" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 441B3A8C2AA01340005C805D;
+			productRefGroup = 441B3A962AA01340005C805D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				441B3A942AA01340005C805D /* ProjetoMentoria */,
+				441B3AAD2AA01341005C805D /* ProjetoMentoriaTests */,
+				441B3AB72AA01341005C805D /* ProjetoMentoriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		441B3A932AA01340005C805D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441B3AA82AA01341005C805D /* LaunchScreen.storyboard in Resources */,
+				441B3AA52AA01341005C805D /* Assets.xcassets in Resources */,
+				441B3AA02AA01340005C805D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441B3AAC2AA01341005C805D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441B3AB62AA01341005C805D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		441B3A912AA01340005C805D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441B3A9D2AA01340005C805D /* ViewController.swift in Sources */,
+				441B3A992AA01340005C805D /* AppDelegate.swift in Sources */,
+				441B3AA32AA01340005C805D /* ProjetoMentoria.xcdatamodeld in Sources */,
+				441B3A9B2AA01340005C805D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441B3AAA2AA01341005C805D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441B3AB32AA01341005C805D /* ProjetoMentoriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441B3AB42AA01341005C805D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441B3ABD2AA01341005C805D /* ProjetoMentoriaUITests.swift in Sources */,
+				441B3ABF2AA01341005C805D /* ProjetoMentoriaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		441B3AB02AA01341005C805D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 441B3A942AA01340005C805D /* ProjetoMentoria */;
+			targetProxy = 441B3AAF2AA01341005C805D /* PBXContainerItemProxy */;
+		};
+		441B3ABA2AA01341005C805D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 441B3A942AA01340005C805D /* ProjetoMentoria */;
+			targetProxy = 441B3AB92AA01341005C805D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		441B3A9E2AA01340005C805D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				441B3A9F2AA01340005C805D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		441B3AA62AA01341005C805D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				441B3AA72AA01341005C805D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		441B3AC02AA01341005C805D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		441B3AC12AA01341005C805D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		441B3AC32AA01341005C805D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjetoMentoria/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.thiagovalentin.ProjetoMentoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		441B3AC42AA01341005C805D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjetoMentoria/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.thiagovalentin.ProjetoMentoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		441B3AC62AA01341005C805D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.thiagovalentin.ProjetoMentoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjetoMentoria.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjetoMentoria";
+			};
+			name = Debug;
+		};
+		441B3AC72AA01341005C805D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.thiagovalentin.ProjetoMentoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjetoMentoria.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjetoMentoria";
+			};
+			name = Release;
+		};
+		441B3AC92AA01341005C805D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.thiagovalentin.ProjetoMentoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProjetoMentoria;
+			};
+			name = Debug;
+		};
+		441B3ACA2AA01341005C805D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.thiagovalentin.ProjetoMentoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProjetoMentoria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		441B3A902AA01340005C805D /* Build configuration list for PBXProject "ProjetoMentoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441B3AC02AA01341005C805D /* Debug */,
+				441B3AC12AA01341005C805D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		441B3AC22AA01341005C805D /* Build configuration list for PBXNativeTarget "ProjetoMentoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441B3AC32AA01341005C805D /* Debug */,
+				441B3AC42AA01341005C805D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		441B3AC52AA01341005C805D /* Build configuration list for PBXNativeTarget "ProjetoMentoriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441B3AC62AA01341005C805D /* Debug */,
+				441B3AC72AA01341005C805D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		441B3AC82AA01341005C805D /* Build configuration list for PBXNativeTarget "ProjetoMentoriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441B3AC92AA01341005C805D /* Debug */,
+				441B3ACA2AA01341005C805D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		441B3AA12AA01340005C805D /* ProjetoMentoria.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				441B3AA22AA01340005C805D /* ProjetoMentoria.xcdatamodel */,
+			);
+			currentVersion = 441B3AA22AA01340005C805D /* ProjetoMentoria.xcdatamodel */;
+			path = ProjetoMentoria.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 441B3A8D2AA01340005C805D /* Project object */;
+}
