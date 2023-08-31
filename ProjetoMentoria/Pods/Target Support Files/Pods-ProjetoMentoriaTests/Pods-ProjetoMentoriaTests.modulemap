@@ -1,0 +1,6 @@
+framework module Pods_ProjetoMentoriaTests {
+  umbrella header "Pods-ProjetoMentoriaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
