@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		441B3A992AA01340005C805D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3A982AA01340005C805D /* AppDelegate.swift */; };
 		441B3A9B2AA01340005C805D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3A9A2AA01340005C805D /* SceneDelegate.swift */; };
-		441B3A9D2AA01340005C805D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3A9C2AA01340005C805D /* ViewController.swift */; };
+		441B3A9D2AA01340005C805D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3A9C2AA01340005C805D /* LoginViewController.swift */; };
 		441B3AA32AA01340005C805D /* ProjetoMentoria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 441B3AA12AA01340005C805D /* ProjetoMentoria.xcdatamodeld */; };
 		441B3AA52AA01341005C805D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441B3AA42AA01341005C805D /* Assets.xcassets */; };
 		441B3AB32AA01341005C805D /* ProjetoMentoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3AB22AA01341005C805D /* ProjetoMentoriaTests.swift */; };
@@ -17,6 +17,9 @@
 		441B3ABF2AA01341005C805D /* ProjetoMentoriaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3ABE2AA01341005C805D /* ProjetoMentoriaUITestsLaunchTests.swift */; };
 		664F28A6F9C5D6F2E1F1535A /* Pods_ProjetoMentoriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A2F0EE705D18F609E9C92F /* Pods_ProjetoMentoriaTests.framework */; };
 		787F20F8F66C4354BECF2477 /* Pods_ProjetoMentoria_ProjetoMentoriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9A7E02ED4BFBBFEE374631 /* Pods_ProjetoMentoria_ProjetoMentoriaUITests.framework */; };
+		B04CC3562AEED2E500D81B07 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CC3552AEED2E500D81B07 /* LoginScreen.swift */; };
+		B04CC3582AEEEA4B00D81B07 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CC3572AEEEA4B00D81B07 /* RegisterScreen.swift */; };
+		B04CC35A2AEEEEB800D81B07 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CC3592AEEEEB800D81B07 /* RegisterViewController.swift */; };
 		F3217EC3C04399B97745E46A /* Pods_ProjetoMentoria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361755428287415E32E6D3D5 /* Pods_ProjetoMentoria.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +45,7 @@
 		441B3A952AA01340005C805D /* ProjetoMentoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoMentoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441B3A982AA01340005C805D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441B3A9A2AA01340005C805D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		441B3A9C2AA01340005C805D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		441B3A9C2AA01340005C805D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		441B3AA22AA01340005C805D /* ProjetoMentoria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjetoMentoria.xcdatamodel; sourceTree = "<group>"; };
 		441B3AA42AA01341005C805D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441B3AA92AA01341005C805D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +59,9 @@
 		8C9A7E02ED4BFBBFEE374631 /* Pods_ProjetoMentoria_ProjetoMentoriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoMentoria_ProjetoMentoriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A2F0EE705D18F609E9C92F /* Pods_ProjetoMentoriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoMentoriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A0EB3DAEF42C146D755600 /* Pods-ProjetoMentoriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoriaTests.release.xcconfig"; path = "Target Support Files/Pods-ProjetoMentoriaTests/Pods-ProjetoMentoriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		B04CC3552AEED2E500D81B07 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		B04CC3572AEEEA4B00D81B07 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		B04CC3592AEEEEB800D81B07 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		BCBF2FB4F2EE2DB3059CDFD8 /* Pods-ProjetoMentoria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoria.release.xcconfig"; path = "Target Support Files/Pods-ProjetoMentoria/Pods-ProjetoMentoria.release.xcconfig"; sourceTree = "<group>"; };
 		C16C438F478985CA74D6B5F6 /* Pods-ProjetoMentoria-ProjetoMentoriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoria-ProjetoMentoriaUITests.release.xcconfig"; path = "Target Support Files/Pods-ProjetoMentoria-ProjetoMentoriaUITests/Pods-ProjetoMentoria-ProjetoMentoriaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C1A221BECF787B725624B911 /* Pods-ProjetoMentoriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoriaTests.debug.xcconfig"; path = "Target Support Files/Pods-ProjetoMentoriaTests/Pods-ProjetoMentoriaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,9 +120,10 @@
 		441B3A972AA01340005C805D /* ProjetoMentoria */ = {
 			isa = PBXGroup;
 			children = (
+				B04CC35B2AEEEECB00D81B07 /* Register */,
+				B04CC3542AEED2AD00D81B07 /* Login */,
 				441B3A982AA01340005C805D /* AppDelegate.swift */,
 				441B3A9A2AA01340005C805D /* SceneDelegate.swift */,
-				441B3A9C2AA01340005C805D /* ViewController.swift */,
 				441B3AA42AA01341005C805D /* Assets.xcassets */,
 				441B3AA92AA01341005C805D /* Info.plist */,
 				441B3AA12AA01340005C805D /* ProjetoMentoria.xcdatamodeld */,
@@ -162,6 +169,24 @@
 				99A2F0EE705D18F609E9C92F /* Pods_ProjetoMentoriaTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B04CC3542AEED2AD00D81B07 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				441B3A9C2AA01340005C805D /* LoginViewController.swift */,
+				B04CC3552AEED2E500D81B07 /* LoginScreen.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B04CC35B2AEEEECB00D81B07 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				B04CC3572AEEEA4B00D81B07 /* RegisterScreen.swift */,
+				B04CC3592AEEEEB800D81B07 /* RegisterViewController.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,9 +390,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441B3A9D2AA01340005C805D /* ViewController.swift in Sources */,
+				B04CC3582AEEEA4B00D81B07 /* RegisterScreen.swift in Sources */,
+				441B3A9D2AA01340005C805D /* LoginViewController.swift in Sources */,
+				B04CC35A2AEEEEB800D81B07 /* RegisterViewController.swift in Sources */,
 				441B3A992AA01340005C805D /* AppDelegate.swift in Sources */,
 				441B3AA32AA01340005C805D /* ProjetoMentoria.xcdatamodeld in Sources */,
+				B04CC3562AEED2E500D81B07 /* LoginScreen.swift in Sources */,
 				441B3A9B2AA01340005C805D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
