@@ -1,0 +1,22 @@
+{
+  "name": "DSM",
+  "version": "1.0.0",
+  "license": {
+    "type": "Proprietary"
+  },
+  "homepage": "https://github.com/Grupo4Mentoria/DSM",
+  "authors": {
+    "Grupo4": "grupo4mentoria@gmail.com"
+  },
+  "summary": "DSM.",
+  "source": {
+    "git": "https://github.com/Grupo4Mentoria/DSM.git",
+    "branch": "develop"
+  },
+  "swift_versions": "5.3",
+  "platforms": {
+    "ios": "14"
+  },
+  "source_files": "Source/**/*",
+  "swift_version": "5.3"
+}

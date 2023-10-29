@@ -1,0 +1,22 @@
+{
+  "name": "SDKNetwork",
+  "version": "1.0.0",
+  "license": {
+    "type": "Proprietary"
+  },
+  "homepage": "https://github.com/Grupo4Mentoria/SDKNetwork",
+  "authors": {
+    "Grupo4": "grupo4mentoria@gmail.com"
+  },
+  "summary": "SDKNetwork.",
+  "source": {
+    "git": "https://github.com/Grupo4Mentoria/SDKNetwork.git",
+    "branch": "feature/pod"
+  },
+  "swift_versions": "5.3",
+  "platforms": {
+    "ios": "14"
+  },
+  "source_files": "Source/**/*",
+  "swift_version": "5.3"
+}

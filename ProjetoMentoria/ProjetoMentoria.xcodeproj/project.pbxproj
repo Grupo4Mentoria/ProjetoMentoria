@@ -10,10 +10,8 @@
 		441B3A992AA01340005C805D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3A982AA01340005C805D /* AppDelegate.swift */; };
 		441B3A9B2AA01340005C805D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3A9A2AA01340005C805D /* SceneDelegate.swift */; };
 		441B3A9D2AA01340005C805D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3A9C2AA01340005C805D /* ViewController.swift */; };
-		441B3AA02AA01340005C805D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441B3A9E2AA01340005C805D /* Main.storyboard */; };
 		441B3AA32AA01340005C805D /* ProjetoMentoria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 441B3AA12AA01340005C805D /* ProjetoMentoria.xcdatamodeld */; };
 		441B3AA52AA01341005C805D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441B3AA42AA01341005C805D /* Assets.xcassets */; };
-		441B3AA82AA01341005C805D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441B3AA62AA01341005C805D /* LaunchScreen.storyboard */; };
 		441B3AB32AA01341005C805D /* ProjetoMentoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3AB22AA01341005C805D /* ProjetoMentoriaTests.swift */; };
 		441B3ABD2AA01341005C805D /* ProjetoMentoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3ABC2AA01341005C805D /* ProjetoMentoriaUITests.swift */; };
 		441B3ABF2AA01341005C805D /* ProjetoMentoriaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B3ABE2AA01341005C805D /* ProjetoMentoriaUITestsLaunchTests.swift */; };
@@ -45,10 +43,8 @@
 		441B3A982AA01340005C805D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441B3A9A2AA01340005C805D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		441B3A9C2AA01340005C805D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		441B3A9F2AA01340005C805D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		441B3AA22AA01340005C805D /* ProjetoMentoria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjetoMentoria.xcdatamodel; sourceTree = "<group>"; };
 		441B3AA42AA01341005C805D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		441B3AA72AA01341005C805D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		441B3AA92AA01341005C805D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441B3AAE2AA01341005C805D /* ProjetoMentoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetoMentoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		441B3AB22AA01341005C805D /* ProjetoMentoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoMentoriaTests.swift; sourceTree = "<group>"; };
@@ -121,9 +117,7 @@
 				441B3A982AA01340005C805D /* AppDelegate.swift */,
 				441B3A9A2AA01340005C805D /* SceneDelegate.swift */,
 				441B3A9C2AA01340005C805D /* ViewController.swift */,
-				441B3A9E2AA01340005C805D /* Main.storyboard */,
 				441B3AA42AA01341005C805D /* Assets.xcassets */,
-				441B3AA62AA01341005C805D /* LaunchScreen.storyboard */,
 				441B3AA92AA01341005C805D /* Info.plist */,
 				441B3AA12AA01340005C805D /* ProjetoMentoria.xcdatamodeld */,
 			);
@@ -157,7 +151,6 @@
 				C1A221BECF787B725624B911 /* Pods-ProjetoMentoriaTests.debug.xcconfig */,
 				A2A0EB3DAEF42C146D755600 /* Pods-ProjetoMentoriaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,9 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441B3AA82AA01341005C805D /* LaunchScreen.storyboard in Resources */,
 				441B3AA52AA01341005C805D /* Assets.xcassets in Resources */,
-				441B3AA02AA01340005C805D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,25 +404,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		441B3A9E2AA01340005C805D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				441B3A9F2AA01340005C805D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		441B3AA62AA01341005C805D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				441B3AA72AA01341005C805D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		441B3AC02AA01341005C805D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -559,7 +531,7 @@
 				INFOPLIST_FILE = ProjetoMentoria/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -587,7 +559,7 @@
 				INFOPLIST_FILE = ProjetoMentoria/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
