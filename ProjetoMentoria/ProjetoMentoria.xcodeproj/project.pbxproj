@@ -20,6 +20,10 @@
 		B04CC3562AEED2E500D81B07 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CC3552AEED2E500D81B07 /* LoginScreen.swift */; };
 		B04CC3582AEEEA4B00D81B07 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CC3572AEEEA4B00D81B07 /* RegisterScreen.swift */; };
 		B04CC35A2AEEEEB800D81B07 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CC3592AEEEEB800D81B07 /* RegisterViewController.swift */; };
+		B04CC3642AEFAFCB00D81B07 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CC3632AEFAFCB00D81B07 /* TabBarController.swift */; };
+		B04CC3692AEFBB6200D81B07 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CC3682AEFBB6200D81B07 /* ProfileViewController.swift */; };
+		B04CC36B2AEFBB7300D81B07 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CC36A2AEFBB7300D81B07 /* ServiceViewController.swift */; };
+		B04CC36D2AEFBB7F00D81B07 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04CC36C2AEFBB7F00D81B07 /* ScheduleViewController.swift */; };
 		F3217EC3C04399B97745E46A /* Pods_ProjetoMentoria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361755428287415E32E6D3D5 /* Pods_ProjetoMentoria.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +66,10 @@
 		B04CC3552AEED2E500D81B07 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		B04CC3572AEEEA4B00D81B07 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		B04CC3592AEEEEB800D81B07 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B04CC3632AEFAFCB00D81B07 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B04CC3682AEFBB6200D81B07 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B04CC36A2AEFBB7300D81B07 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		B04CC36C2AEFBB7F00D81B07 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		BCBF2FB4F2EE2DB3059CDFD8 /* Pods-ProjetoMentoria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoria.release.xcconfig"; path = "Target Support Files/Pods-ProjetoMentoria/Pods-ProjetoMentoria.release.xcconfig"; sourceTree = "<group>"; };
 		C16C438F478985CA74D6B5F6 /* Pods-ProjetoMentoria-ProjetoMentoriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoria-ProjetoMentoriaUITests.release.xcconfig"; path = "Target Support Files/Pods-ProjetoMentoria-ProjetoMentoriaUITests/Pods-ProjetoMentoria-ProjetoMentoriaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C1A221BECF787B725624B911 /* Pods-ProjetoMentoriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoriaTests.debug.xcconfig"; path = "Target Support Files/Pods-ProjetoMentoriaTests/Pods-ProjetoMentoriaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,8 +128,7 @@
 		441B3A972AA01340005C805D /* ProjetoMentoria */ = {
 			isa = PBXGroup;
 			children = (
-				B04CC35B2AEEEECB00D81B07 /* Register */,
-				B04CC3542AEED2AD00D81B07 /* Login */,
+				B04CC3622AEFAF6300D81B07 /* View */,
 				441B3A982AA01340005C805D /* AppDelegate.swift */,
 				441B3A9A2AA01340005C805D /* SceneDelegate.swift */,
 				441B3AA42AA01341005C805D /* Assets.xcassets */,
@@ -187,6 +194,43 @@
 				B04CC3592AEEEEB800D81B07 /* RegisterViewController.swift */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		B04CC3622AEFAF6300D81B07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B04CC3672AEFBB4500D81B07 /* Schedule */,
+				B04CC3662AEFBB3A00D81B07 /* Service */,
+				B04CC3652AEFBB3200D81B07 /* Profile */,
+				B04CC3542AEED2AD00D81B07 /* Login */,
+				B04CC35B2AEEEECB00D81B07 /* Register */,
+				B04CC3632AEFAFCB00D81B07 /* TabBarController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B04CC3652AEFBB3200D81B07 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B04CC3682AEFBB6200D81B07 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B04CC3662AEFBB3A00D81B07 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B04CC36A2AEFBB7300D81B07 /* ServiceViewController.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B04CC3672AEFBB4500D81B07 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				B04CC36C2AEFBB7F00D81B07 /* ScheduleViewController.swift */,
+			);
+			path = Schedule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,11 +435,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04CC3582AEEEA4B00D81B07 /* RegisterScreen.swift in Sources */,
+				B04CC3642AEFAFCB00D81B07 /* TabBarController.swift in Sources */,
 				441B3A9D2AA01340005C805D /* LoginViewController.swift in Sources */,
 				B04CC35A2AEEEEB800D81B07 /* RegisterViewController.swift in Sources */,
 				441B3A992AA01340005C805D /* AppDelegate.swift in Sources */,
 				441B3AA32AA01340005C805D /* ProjetoMentoria.xcdatamodeld in Sources */,
+				B04CC3692AEFBB6200D81B07 /* ProfileViewController.swift in Sources */,
 				B04CC3562AEED2E500D81B07 /* LoginScreen.swift in Sources */,
+				B04CC36B2AEFBB7300D81B07 /* ServiceViewController.swift in Sources */,
+				B04CC36D2AEFBB7F00D81B07 /* ScheduleViewController.swift in Sources */,
 				441B3A9B2AA01340005C805D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
