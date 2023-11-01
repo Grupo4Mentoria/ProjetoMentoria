@@ -11,12 +11,18 @@
   "summary": "DSM.",
   "source": {
     "git": "https://github.com/Grupo4Mentoria/DSM.git",
-    "branch": "develop"
+    "tag": "1.0.0"
   },
-  "swift_versions": "5.3",
+  "source_files": "Source/DSM/ViewModel/*",
+  "dependencies": {
+    "SDKNetwork": [
+
+    ]
+  },
   "platforms": {
-    "ios": "14"
-  },
-  "source_files": "Source/**/*",
-  "swift_version": "5.3"
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
 }

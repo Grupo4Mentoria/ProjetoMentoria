@@ -1,3 +1,32 @@
-PODFILE CHECKSUM: 131ee4eb2fefc60136ddfd319737d7b6311486a1
+PODS:
+  - DSM (1.0.0):
+    - SDKNetwork
+  - SDKNetwork (1.0.0)
+
+DEPENDENCIES:
+  - DSM (from `https://github.com/Grupo4Mentoria/DSM.git`, branch `feature/fixPodspec`)
+  - SDKNetwork (from `https://github.com/Grupo4Mentoria/SDKNetwork.git`, branch `feature/pod`)
+
+EXTERNAL SOURCES:
+  DSM:
+    :branch: feature/fixPodspec
+    :git: https://github.com/Grupo4Mentoria/DSM.git
+  SDKNetwork:
+    :branch: feature/pod
+    :git: https://github.com/Grupo4Mentoria/SDKNetwork.git
+
+CHECKOUT OPTIONS:
+  DSM:
+    :commit: dee48ba4d3f074cb9553dbba6b3d87a213c9e4e4
+    :git: https://github.com/Grupo4Mentoria/DSM.git
+  SDKNetwork:
+    :commit: d8f724bf3716ef3c0d5109f6edff3edeb9256004
+    :git: https://github.com/Grupo4Mentoria/SDKNetwork.git
+
+SPEC CHECKSUMS:
+  DSM: 6eb3a918956b1356b013412b8ebfce841f5e66c0
+  SDKNetwork: 0ac7fa64e88a18404d92e704c4454afe3bb1b353
+
+PODFILE CHECKSUM: 11b46ed3c6d61700f24e8f1202bc4186b5f8ec6b
 
 COCOAPODS: 1.12.1
