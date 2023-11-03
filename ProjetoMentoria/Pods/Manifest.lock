@@ -17,16 +17,16 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   DSM:
-    :commit: dee48ba4d3f074cb9553dbba6b3d87a213c9e4e4
+    :commit: 6f7ab2eab82ac7504b45978465af94943e141acb
     :git: https://github.com/Grupo4Mentoria/DSM.git
   SDKNetwork:
     :commit: d8f724bf3716ef3c0d5109f6edff3edeb9256004
     :git: https://github.com/Grupo4Mentoria/SDKNetwork.git
 
 SPEC CHECKSUMS:
-  DSM: 6eb3a918956b1356b013412b8ebfce841f5e66c0
+  DSM: e1db937722caf89519455e73010de335de59a47d
   SDKNetwork: 0ac7fa64e88a18404d92e704c4454afe3bb1b353
 
 PODFILE CHECKSUM: 11b46ed3c6d61700f24e8f1202bc4186b5f8ec6b
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.11.3

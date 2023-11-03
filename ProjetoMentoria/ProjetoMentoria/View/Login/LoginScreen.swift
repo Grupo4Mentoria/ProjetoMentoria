@@ -6,47 +6,29 @@
 //
 
 import UIKit
+import DSM
 
 class LoginScreen: UIView {
+    
+    var themeId = 1
     
     //MARK: - Closures
     var onRegisterTap:(() -> Void)?
 
     lazy var emailLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "E-mail"
-        label.textColor = .white
-        return label
+        return UIComponentsFactory.shared.createLabel(themeId: themeId, component: ThemeComponentEnum.customText.rawValue, text: "E-mail")
     }()
     
     lazy var emailTextField: UITextField = {
-        let textField = UITextField()
-        textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.placeholder = "Digite seu e-mail"
-        textField.backgroundColor = .white
-        textField.keyboardType = .emailAddress
-        textField.layer.cornerRadius = 6
-        return textField
+        return UIComponentsFactory.shared.createTextField(themeId: themeId, component: ThemeComponentEnum.customTextField.rawValue, placeholder: "Digite seu e-mail")
     }()
     
     lazy var passwordLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Senha"
-        label.textColor = .white
-        return label
+        return UIComponentsFactory.shared.createLabel(themeId: themeId, component: ThemeComponentEnum.customText.rawValue, text: "Senha")
     }()
     
     lazy var passwordTextField: UITextField = {
-        let textField = UITextField()
-        textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.placeholder = "Digite sua senha"
-        textField.backgroundColor = .white
-        textField.keyboardType = .default
-        textField.isSecureTextEntry = true
-        textField.layer.cornerRadius = 6
-        return textField
+        return UIComponentsFactory.shared.createTextField(themeId: themeId, component: ThemeComponentEnum.customTextField.rawValue, placeholder: "Digite sua senha")
     }()
     
     lazy var reminderSwitch: UISwitch = {
@@ -59,39 +41,22 @@ class LoginScreen: UIView {
     }()
     
     lazy var reminderLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Lembrar"
-        label.textColor = .white
-        return label
+        return UIComponentsFactory.shared.createLabel(themeId: themeId, component: ThemeComponentEnum.customText.rawValue, text: "Lembrar")
     }()
     
     lazy var loginButton: UIButton = {
-        let button = UIButton()
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Entrar", for: .normal)
-        button.setTitleColor(.black, for: .normal)
-        button.backgroundColor = .white
-        button.layer.cornerRadius = 16
+        let button = UIComponentsFactory.shared.createButton(themeId: themeId, component: ThemeComponentEnum.customButtomPrimary.rawValue, title: "Entrar")
         return button
     }()
     
     lazy var goRegisterButton: UIButton = {
-        let button = UIButton()
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Cadastre-se", for: .normal)
-        button.setTitleColor(.black, for: .normal)
-        button.backgroundColor = .white
-        button.layer.cornerRadius = 16
-        
-        button.addTarget(self, action: #selector(registerTapAction), for: .touchUpInside)
-        
+        let button = UIComponentsFactory.shared.createButton(themeId: themeId, component: ThemeComponentEnum.customButtomPrimary.rawValue, title: "Cadastre-se")
         return button
     }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .gray
+        self.backgroundColor = .systemBackground
         addElements()
         setupConstraints()
     }

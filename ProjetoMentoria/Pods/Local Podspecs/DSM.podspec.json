@@ -13,7 +13,12 @@
     "git": "https://github.com/Grupo4Mentoria/DSM.git",
     "tag": "1.0.0"
   },
-  "source_files": "Source/DSM/ViewModel/*",
+  "source_files": [
+    "Source/DSM/Extensions/*",
+    "Source/DSM/Utils/*",
+    "Source/DSM/ViewModel/*",
+    "Source/DSM/Factory/*"
+  ],
   "dependencies": {
     "SDKNetwork": [
 

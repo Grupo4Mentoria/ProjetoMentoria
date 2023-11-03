@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import DSM
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -18,11 +19,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let winScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: winScene)
-        let navigationController = UINavigationController(rootViewController: TabBarController())
-        navigationController.navigationBar.prefersLargeTitles = true
-        window.rootViewController = navigationController
-        window.makeKeyAndVisible()
-        self.window = window
+        
+        DSM.DSMFactory.shared.getThemesData {
+            let navigationController = UINavigationController(rootViewController: LoginViewController())
+            navigationController.navigationBar.prefersLargeTitles = true
+            window.rootViewController = navigationController
+            window.makeKeyAndVisible()
+            self.window = window
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

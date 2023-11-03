@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ThemeComponentEnum: String {
+public enum ThemeComponentEnum: String {
     case customButtom = "customButton"
     case customButtomPrimary = "customButtonPrimary"
     case customButtomSecundary = "customButtonSecundary"
