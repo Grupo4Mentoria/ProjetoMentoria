@@ -128,10 +128,10 @@
 		441B3A972AA01340005C805D /* ProjetoMentoria */ = {
 			isa = PBXGroup;
 			children = (
-				B04CC3622AEFAF6300D81B07 /* View */,
-				441B3A982AA01340005C805D /* AppDelegate.swift */,
-				441B3A9A2AA01340005C805D /* SceneDelegate.swift */,
-				441B3AA42AA01341005C805D /* Assets.xcassets */,
+				B05C33A72AF9A7800023B558 /* Resources */,
+				B05C33A62AF9A74C0023B558 /* Source */,
+				B0286E692AF8E9BD00B65AED /* Extension */,
+				B04CC3622AEFAF6300D81B07 /* Controllers */,
 				441B3AA92AA01341005C805D /* Info.plist */,
 				441B3AA12AA01340005C805D /* ProjetoMentoria.xcdatamodeld */,
 			);
@@ -168,6 +168,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B0286E692AF8E9BD00B65AED /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		B04CC3542AEED2AD00D81B07 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,17 +193,17 @@
 			path = Register;
 			sourceTree = "<group>";
 		};
-		B04CC3622AEFAF6300D81B07 /* View */ = {
+		B04CC3622AEFAF6300D81B07 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B05C33A82AF9A8270023B558 /* TabBar */,
 				B04CC3672AEFBB4500D81B07 /* Schedule */,
 				B04CC3662AEFBB3A00D81B07 /* Service */,
 				B04CC3652AEFBB3200D81B07 /* Profile */,
 				B04CC3542AEED2AD00D81B07 /* Login */,
 				B04CC35B2AEEEECB00D81B07 /* Register */,
-				B04CC3632AEFAFCB00D81B07 /* TabBarController.swift */,
 			);
-			path = View;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		B04CC3652AEFBB3200D81B07 /* Profile */ = {
@@ -221,6 +228,31 @@
 				B04CC36C2AEFBB7F00D81B07 /* ScheduleViewController.swift */,
 			);
 			path = Schedule;
+			sourceTree = "<group>";
+		};
+		B05C33A62AF9A74C0023B558 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				441B3A982AA01340005C805D /* AppDelegate.swift */,
+				441B3A9A2AA01340005C805D /* SceneDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B05C33A72AF9A7800023B558 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				441B3AA42AA01341005C805D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B05C33A82AF9A8270023B558 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B04CC3632AEFAFCB00D81B07 /* TabBarController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		C0ABA160A890B08E10691927 /* Frameworks */ = {

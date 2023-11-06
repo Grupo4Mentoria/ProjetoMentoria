@@ -51,6 +51,7 @@ class LoginScreen: UIView {
     
     lazy var goRegisterButton: UIButton = {
         let button = UIComponentsFactory.shared.createButton(themeId: themeId, component: ThemeComponentEnum.customButtomPrimary.rawValue, title: "Cadastre-se")
+        button.addTarget(self, action: #selector(registerTapAction), for: .touchUpInside)
         return button
     }()
     
