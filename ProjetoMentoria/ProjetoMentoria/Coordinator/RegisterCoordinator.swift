@@ -17,6 +17,11 @@ class RegisterCoordinator: Coordinator {
     
     func start() {
         let viewController = RegisterViewController()
+        
+        viewController.onRegisterSuccess = {
+            self.navigationController.popToRootViewController(animated: true)
+        }
+        
         navigationController.pushViewController(viewController, animated: true)
     }
 

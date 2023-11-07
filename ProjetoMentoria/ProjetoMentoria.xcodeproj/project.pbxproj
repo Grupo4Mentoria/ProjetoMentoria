@@ -34,6 +34,7 @@
 		B05C33C12AF9C8F70023B558 /* UserBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C33C02AF9C8F70023B558 /* UserBusiness.swift */; };
 		B05C33C32AF9CD800023B558 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C33C22AF9CD800023B558 /* TabBarCoordinator.swift */; };
 		B05C33C52AFA2DD90023B558 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C33C42AFA2DD90023B558 /* UserViewModel.swift */; };
+		B05C33C92AFA40530023B558 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B05C33C82AFA40530023B558 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		B05C33C02AF9C8F70023B558 /* UserBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBusiness.swift; sourceTree = "<group>"; };
 		B05C33C22AF9CD800023B558 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		B05C33C42AFA2DD90023B558 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		B05C33C82AFA40530023B558 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BE296ED07C87425D7C98646F /* Pods-ProjetoMentoria-ProjetoMentoriaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjetoMentoria-ProjetoMentoriaUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProjetoMentoria-ProjetoMentoriaUITests/Pods-ProjetoMentoria-ProjetoMentoriaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E77E1D42AEB3667D575006DF /* Pods_ProjetoMentoria_ProjetoMentoriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjetoMentoria_ProjetoMentoriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -155,6 +157,7 @@
 				B05C33A62AF9A74C0023B558 /* Source */,
 				B05C33A92AF9A8C40023B558 /* ViewModel */,
 				441B3AA92AA01341005C805D /* Info.plist */,
+				B05C33C82AFA40530023B558 /* GoogleService-Info.plist */,
 				441B3AA12AA01340005C805D /* ProjetoMentoria.xcdatamodeld */,
 			);
 			path = ProjetoMentoria;
@@ -458,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				441B3AA52AA01341005C805D /* Assets.xcassets in Resources */,
+				B05C33C92AFA40530023B558 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

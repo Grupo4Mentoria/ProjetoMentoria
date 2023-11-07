@@ -109,8 +109,8 @@
             filePath = "ProjetoMentoria/Coordinator/LoginCoordinator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "start()"
             landmarkType = "7">
          </BreakpointContent>
@@ -125,8 +125,8 @@
             filePath = "ProjetoMentoria/Coordinator/LoginCoordinator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "start()"
             landmarkType = "7">
          </BreakpointContent>
@@ -193,6 +193,182 @@
                   offsetFromSymbolStart = "33">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CB0CE39-D081-4DC1-A299-B79722D372FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetoMentoria/API/Provider/UserProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "register(paramenters:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2603CAE-CFF8-44B1-97F4-1CA0E232D2DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetoMentoria/API/Provider/UserProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "register(paramenters:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBFC62B4-6D87-4E36-B45E-032C8B9EA25B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetoMentoria/API/Provider/UserProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "register(paramenters:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12F4A427-0B3C-4465-B9FF-712760127D51"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetoMentoria/API/Provider/UserProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "register(paramenters:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12F4A427-0B3C-4465-B9FF-712760127D51 - b4d17b7ba6c0c370"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjetoMentoria.UserProvider.register(paramenters: Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;, completionHandler: (Swift.Result&lt;ProjetoMentoria.UserModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ProjetoMentoria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cesarsilva/Dev/Mentoria/ProjetoMentoria/ProjetoMentoria/ProjetoMentoria/API/Provider/UserProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1210">
+               </Location>
+               <Location
+                  uuid = "12F4A427-0B3C-4465-B9FF-712760127D51 - 6b988882f51110e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ProjetoMentoria.UserProvider.register(paramenters: Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;, completionHandler: (Swift.Result&lt;ProjetoMentoria.UserModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ProjetoMentoria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cesarsilva/Dev/Mentoria/ProjetoMentoria/ProjetoMentoria/ProjetoMentoria/API/Provider/UserProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F80723C-ACB6-44B0-A169-C4E556FC2931"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetoMentoria/Controllers/Register/RegisterScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "registerTapAction()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F80723C-ACB6-44B0-A169-C4E556FC2931 - 671be48da13fe751"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjetoMentoria.RegisterScreen.registerTapAction() -&gt; ()"
+                  moduleName = "ProjetoMentoria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cesarsilva/Dev/Mentoria/ProjetoMentoria/ProjetoMentoria/ProjetoMentoria/Controllers/Register/RegisterScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "823">
+               </Location>
+               <Location
+                  uuid = "1F80723C-ACB6-44B0-A169-C4E556FC2931 - 671be48da13fe751"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjetoMentoria.RegisterScreen.registerTapAction() -&gt; ()"
+                  moduleName = "ProjetoMentoria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cesarsilva/Dev/Mentoria/ProjetoMentoria/ProjetoMentoria/ProjetoMentoria/Controllers/Register/RegisterScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "1631">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A779E580-9A35-45FB-BE7C-597A1F534BEF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetoMentoria/API/Provider/UserProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "login(paremeters:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF05497A-1528-4C3D-9230-563A45B8076D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjetoMentoria/API/Provider/UserProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "login(paremeters:completionHandler:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

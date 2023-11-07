@@ -19,6 +19,7 @@ class LoginCoordinator: Coordinator {
         let viewController = LoginViewController()
         
         viewController.onRegisterTap = {
+            self.navigationController.navigationBar.topItem?.backButtonDisplayMode = .minimal
             let coordinator = RegisterCoordinator(navigationController: self.navigationController)
             coordinator.start()
         }

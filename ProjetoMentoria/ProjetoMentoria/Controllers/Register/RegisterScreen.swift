@@ -6,78 +6,58 @@
 //
 
 import UIKit
+import DSM
 
 class RegisterScreen: UIView {
+    
+    var themeId = 1
 
+    //MARK: - Closures
+    var onRegisterTap:((_ email: String, _ password: String) -> Void)?
+
+    //MARK: - Properties
     lazy var emailLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "E-mail"
-        label.textColor = .white
-        return label
+        return UIComponentsFactory.shared.createLabel(themeId: themeId, component: ThemeComponentEnum.customText.rawValue, text: "E-mail")
     }()
     
     lazy var emailTextField: UITextField = {
-        let textField = UITextField()
-        textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.placeholder = "Digite seu e-mail"
-        textField.backgroundColor = .white
-        textField.keyboardType = .emailAddress
-        textField.layer.cornerRadius = 6
+        let textField = UIComponentsFactory.shared.createTextField(themeId: themeId, component: ThemeComponentEnum.customTextField.rawValue, placeholder: "Digite seu e-mail")
+        textField.autocapitalizationType = .none
         return textField
     }()
     
     lazy var passwordLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Senha"
-        label.textColor = .white
-        return label
+        return UIComponentsFactory.shared.createLabel(themeId: themeId, component: ThemeComponentEnum.customText.rawValue, text: "Senha")
     }()
     
     lazy var passwordTextField: UITextField = {
-        let textField = UITextField()
-        textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.placeholder = "Digite sua senha"
-        textField.backgroundColor = .white
-        textField.keyboardType = .default
+        let textField = UIComponentsFactory.shared.createTextField(themeId: themeId, component: ThemeComponentEnum.customTextField.rawValue, placeholder: "Digite sua senha")
         textField.isSecureTextEntry = true
-        textField.layer.cornerRadius = 6
+        textField.autocapitalizationType = .none
         return textField
     }()
     
     lazy var passwordConfirmLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Corfirmação de Senha"
-        label.textColor = .white
-        return label
+        return UIComponentsFactory.shared.createLabel(themeId: themeId, component: ThemeComponentEnum.customText.rawValue, text: "Corfirmação de Senha")
     }()
     
     lazy var passwordConfirmTextField: UITextField = {
-        let textField = UITextField()
-        textField.translatesAutoresizingMaskIntoConstraints = false
-        textField.placeholder = "Confirme sua senha"
-        textField.backgroundColor = .white
-        textField.keyboardType = .default
+        let textField = UIComponentsFactory.shared.createTextField(themeId: themeId, component: ThemeComponentEnum.customTextField.rawValue, placeholder: "Confirme sua senha")
         textField.isSecureTextEntry = true
-        textField.layer.cornerRadius = 6
+        textField.autocapitalizationType = .none
         return textField
     }()
     
     lazy var registerButton: UIButton = {
-        let button = UIButton()
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Cadastrar", for: .normal)
-        button.setTitleColor(.black, for: .normal)
-        button.backgroundColor = .white
-        button.layer.cornerRadius = 16
+        let button = UIComponentsFactory.shared.createButton(themeId: themeId, component: ThemeComponentEnum.customButtomPrimary.rawValue, title: "Cadastrar")
+        button.addTarget(self, action: #selector(registerTapAction), for: .touchUpInside)
         return button
     }()
     
+    //MARK: - Init
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .gray
+        self.backgroundColor = .systemBackground
         addElements()
         setupConstraints()
     }
@@ -131,4 +111,14 @@ class RegisterScreen: UIView {
             registerButton.heightAnchor.constraint(equalToConstant: 44)
         ])
     }
+    
+    //MARK - Actions
+    @objc func registerTapAction() {
+        if let email = emailTextField.text,
+           let password = passwordTextField.text,
+            passwordTextField.text == passwordConfirmTextField.text {
+            self.onRegisterTap?(email, password)
+        }
+    }
+    
 }

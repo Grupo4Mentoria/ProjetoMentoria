@@ -22,7 +22,9 @@ class LoginScreen: UIView {
     }()
     
     lazy var emailTextField: UITextField = {
-        return UIComponentsFactory.shared.createTextField(themeId: themeId, component: ThemeComponentEnum.customTextField.rawValue, placeholder: "Digite seu e-mail")
+        let textField = UIComponentsFactory.shared.createTextField(themeId: themeId, component: ThemeComponentEnum.customTextField.rawValue, placeholder: "Digite seu e-mail")
+        textField.autocapitalizationType = .none
+        return textField
     }()
     
     lazy var passwordLabel: UILabel = {
@@ -30,7 +32,10 @@ class LoginScreen: UIView {
     }()
     
     lazy var passwordTextField: UITextField = {
-        return UIComponentsFactory.shared.createTextField(themeId: themeId, component: ThemeComponentEnum.customTextField.rawValue, placeholder: "Digite sua senha")
+        let textField = UIComponentsFactory.shared.createTextField(themeId: themeId, component: ThemeComponentEnum.customTextField.rawValue, placeholder: "Digite sua senha")
+        textField.isSecureTextEntry = true
+        textField.autocapitalizationType = .none
+        return textField
     }()
     
     lazy var reminderSwitch: UISwitch = {
