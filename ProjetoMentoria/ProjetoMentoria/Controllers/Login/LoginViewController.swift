@@ -32,6 +32,9 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         self.view = loginView
         self.title = "Entrada"
+        
+        let tapGesture = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
+        self.view.addGestureRecognizer(tapGesture)
     }
     
     private func loginTap(_ email: String, _ password: String) {

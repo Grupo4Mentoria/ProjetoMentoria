@@ -27,6 +27,9 @@ class RegisterViewController: UIViewController {
 
         self.view = registerView
         self.title = "Cadastro"
+        
+        let tapGesture = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
+        self.view.addGestureRecognizer(tapGesture)
     }
     
     private func registerTap(_ email: String, _ password: String) {
