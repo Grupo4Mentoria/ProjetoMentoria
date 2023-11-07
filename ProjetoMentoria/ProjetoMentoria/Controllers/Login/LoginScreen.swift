@@ -13,8 +13,10 @@ class LoginScreen: UIView {
     var themeId = 1
     
     //MARK: - Closures
+    var onLoginTap:((_ email: String, _ password: String) -> Void)?
     var onRegisterTap:(() -> Void)?
 
+    //MARK: - Properties
     lazy var emailLabel: UILabel = {
         return UIComponentsFactory.shared.createLabel(themeId: themeId, component: ThemeComponentEnum.customText.rawValue, text: "E-mail")
     }()
@@ -46,6 +48,7 @@ class LoginScreen: UIView {
     
     lazy var loginButton: UIButton = {
         let button = UIComponentsFactory.shared.createButton(themeId: themeId, component: ThemeComponentEnum.customButtomPrimary.rawValue, title: "Entrar")
+        button.addTarget(self, action: #selector(loginTapAction), for: .touchUpInside)
         return button
     }()
     
@@ -55,6 +58,7 @@ class LoginScreen: UIView {
         return button
     }()
     
+    //MARK: - Init
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = .systemBackground
@@ -114,6 +118,14 @@ class LoginScreen: UIView {
             goRegisterButton.trailingAnchor.constraint(equalTo: loginButton.trailingAnchor),
             goRegisterButton.heightAnchor.constraint(equalToConstant: 44)
         ])
+    }
+    
+    //MARK - Actions
+    @objc func loginTapAction() {
+        if let email = emailTextField.text,
+           let password = passwordTextField.text {
+            self.onLoginTap?(email, password)
+        }
     }
     
     @objc func registerTapAction() {

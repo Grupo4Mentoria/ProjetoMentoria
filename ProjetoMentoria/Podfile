@@ -8,6 +8,8 @@ target 'ProjetoMentoria' do
   # Pods for ProjetoMentoria
   pod 'DSM', :git => 'https://github.com/Grupo4Mentoria/DSM.git', :branch => 'feature/fixPodspec'
   pod 'SDKNetwork', :git => 'https://github.com/Grupo4Mentoria/SDKNetwork.git', :branch => 'feature/pod'
+  
+  pod 'FirebaseAuth'
 
   target 'ProjetoMentoriaTests' do
     inherit! :search_paths

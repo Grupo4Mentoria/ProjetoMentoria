@@ -21,11 +21,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: winScene)
         
         DSM.DSMFactory.shared.getThemesData {
-            let navigationController = UINavigationController(rootViewController: LoginViewController())
+            let navigationController = UINavigationController()
             navigationController.navigationBar.prefersLargeTitles = true
             window.rootViewController = navigationController
             window.makeKeyAndVisible()
             self.window = window
+            
+            let coordinator = LoginCoordinator(navigationController: navigationController)
+            coordinator.start()
         }
     }
 
